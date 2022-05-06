@@ -15,13 +15,28 @@ class MeuApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.orange,
         body: SafeArea(
-          child: Container(
-            width: 100,
-            height: 100,
-            padding: EdgeInsets.all(30),
-            margin: EdgeInsets.only(left: 30),
-            color: Colors.white,
-            child: Text('Olá, pessoal!'),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Container(
+                height: 100,
+              color: Colors.white,
+              child: Text('Container 1'),
+              ),
+
+              Container(
+                width: 100,
+                height: 100,
+                color: Colors.blue,
+                child: Text('Container 2'),
+              ),
+
+              Container(
+                  height: 100,
+                  color: Colors.red,
+                  child: Text('Container 3'),
+              ),
+            ],
           ),
         ),
       ),
