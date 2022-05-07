@@ -20,21 +20,20 @@ class MeuApp extends StatelessWidget {
             children: [
               Container(
                 height: 100,
-              color: Colors.white,
-              child: Text('Container 1'),
+                color: Colors.white,
+                child: Text('Container 1'),
               ),
-
+              SizedBox(
+                height: 20,
+              ),
               Container(
-                width: 100,
                 height: 100,
                 color: Colors.blue,
                 child: Text('Container 2'),
               ),
-
               Container(
-                  height: 100,
-                  color: Colors.red,
-                  child: Text('Container 3'),
+                color: Colors.red,
+                child: Text('Container 3'),
               ),
             ],
           ),
