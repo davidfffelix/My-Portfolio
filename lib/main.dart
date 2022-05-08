@@ -13,27 +13,21 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.deepOrange,
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Container(
-                height: 100,
-                color: Colors.white,
-                child: Text('Container 1'),
+              CircleAvatar(
+                backgroundImage: AssetImage('images/david.jpeg'),
+                radius: 60,
               ),
-              SizedBox(
-                height: 20,
-              ),
-              Container(
-                height: 100,
-                color: Colors.blue,
-                child: Text('Container 2'),
-              ),
-              Container(
-                color: Colors.red,
-                child: Text('Container 3'),
+
+              Text('David Felix',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontSize: 30,
+               ),
               ),
             ],
           ),
