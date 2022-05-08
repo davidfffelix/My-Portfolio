@@ -19,15 +19,15 @@ class MeuApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundImage: AssetImage('images/david.jpeg'),
-                radius: 60,
+                radius: 80,
               ),
-
-              Text('David Felix',
+              Text(
+                'David Felix',
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
-               ),
+                ),
               ),
             ],
           ),
