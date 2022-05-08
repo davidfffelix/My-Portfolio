@@ -13,7 +13,7 @@ class MeuApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.deepOrange,
+        backgroundColor: Color(0xff032459),
         body: SafeArea(
           child: Column(
             children: [
