@@ -18,7 +18,7 @@ class MeuApp extends StatelessWidget {
           child: Column(
             children: [
               CircleAvatar(
-                backgroundImage: AssetImage('images/david.jpeg'),
+                backgroundImage: AssetImage('imagens/david.jpeg'),
                 radius: 80,
               ),
               Text(
@@ -27,6 +27,7 @@ class MeuApp extends StatelessWidget {
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
+                  fontFamily: 'Pacifico',
                 ),
               ),
             ],
