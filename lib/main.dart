@@ -30,6 +30,8 @@ class MeuApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
+              Text('Desenvolvedor Flutter'
+              ),
             ],
           ),
         ),
