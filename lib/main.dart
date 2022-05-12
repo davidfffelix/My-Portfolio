@@ -30,16 +30,15 @@ class MeuApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
-              Text('Desenvolvedor Flutter',
+              Text(
+                'Desenvolvedor Flutter',
                 style: TextStyle(
                   color: Colors.white,
                 ),
               ),
               Container(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(
-                    vertical: 10,
-                    horizontal: 25),
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 padding: EdgeInsets.all(5),
                 child: Row(
                   children: [
@@ -51,12 +50,12 @@ class MeuApp extends StatelessWidget {
                     SizedBox(
                       width: 10,
                     ),
-                    Text('+55 21 9999-9999',
+                    Text(
+                      '+55 21 9999-9999',
                       style: TextStyle(
                         color: Color(0xff032459),
                         fontSize: 20,
                       ),
-
                     ),
                   ],
                 ),
