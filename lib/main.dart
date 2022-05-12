@@ -36,16 +36,24 @@ class MeuApp extends StatelessWidget {
                 ),
               ),
               Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(
+                    vertical: 10,
+                    horizontal: 25),
+                padding: EdgeInsets.all(5),
                 child: Row(
                   children: [
                     Icon(
                       Icons.phone,
+                      color: Color(0xff032459),
                       size: 25,
-                      color: Colors.white,
+                    ),
+                    SizedBox(
+                      width: 10,
                     ),
                     Text('+55 21 9999-9999',
                       style: TextStyle(
-                        color: Colors.white,
+                        color: Color(0xff032459),
                         fontSize: 20,
                       ),
 
