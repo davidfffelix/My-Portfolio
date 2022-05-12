@@ -19,7 +19,7 @@ class MeuApp extends StatelessWidget {
             children: [
               CircleAvatar(
                 backgroundImage: AssetImage('imagens/david.jpeg'),
-                radius: 80,
+                radius: 60,
               ),
               Text(
                 'David Felix',
@@ -30,7 +30,28 @@ class MeuApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
-              Text('Desenvolvedor Flutter'
+              Text('Desenvolvedor Flutter',
+                style: TextStyle(
+                  color: Colors.white,
+                ),
+              ),
+              Container(
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.phone,
+                      size: 25,
+                      color: Colors.white,
+                    ),
+                    Text('+55 21 9999-9999',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                      ),
+
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
