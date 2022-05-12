@@ -60,6 +60,30 @@ class MeuApp extends StatelessWidget {
                   ],
                 ),
               ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
+                padding: EdgeInsets.all(5),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.email,
+                      color: Color(0xff032459),
+                      size: 25,
+                    ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      'davidffelix@hotmail.com',
+                      style: TextStyle(
+                        color: Color(0xff032459),
+                        fontSize: 20,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ],
           ),
         ),
