@@ -40,48 +40,39 @@ class MeuApp extends StatelessWidget {
                 margin: EdgeInsets.symmetric(
                     vertical: 10,
                     horizontal: 25),
-                child: Row(
-                  children: [
-                    Icon(
+                child: ListTile(
+                  leading: Icon(
                       Icons.phone,
                       color: Color(0xff032459),
                       size: 25,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text('+55 21 9999-9999',
+                    title: Text('+55 21 9999-9999',
                       style: TextStyle(
                         color: Color(0xff032459),
                         fontSize: 20,
                       ),
                     ),
-                  ],
                 ),
               ),
+
 
               Card(
                 color: Colors. white,
                 margin: EdgeInsets.symmetric(
                     vertical: 10,
                     horizontal: 25),
-                child: Row(
-                  children: [
-                    Icon(
+                child: ListTile(
+                    leading: Icon(
                       Icons.email,
                       color: Color(0xff032459),
                       size: 25,
                     ),
-                    SizedBox(
-                      width: 10,
-                    ),
-                    Text('davidffelix@hotmail.com',
+                    title: Text('davidffelix@hotmail.com',
                       style: TextStyle(
                         color: Color(0xff032459),
                         fontSize: 20,
                       ),
                     ),
-                  ],
                 ),
               ),
             ],
