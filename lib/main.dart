@@ -30,16 +30,16 @@ class MeuApp extends StatelessWidget {
                   fontFamily: 'Pacifico',
                 ),
               ),
-              Text(
-                'Desenvolvedor Flutter',
+              Text('Desenvolvedor Flutter',
                 style: TextStyle(
                   color: Colors.white,
                 ),
               ),
-              Container(
+              Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                padding: EdgeInsets.all(5),
+                margin: EdgeInsets.symmetric(
+                    vertical: 10,
+                    horizontal: 25),
                 child: Row(
                   children: [
                     Icon(
@@ -50,8 +50,7 @@ class MeuApp extends StatelessWidget {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
-                      '+55 21 9999-9999',
+                    Text('+55 21 9999-9999',
                       style: TextStyle(
                         color: Color(0xff032459),
                         fontSize: 20,
@@ -60,10 +59,12 @@ class MeuApp extends StatelessWidget {
                   ],
                 ),
               ),
-              Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
-                padding: EdgeInsets.all(5),
+
+              Card(
+                color: Colors. white,
+                margin: EdgeInsets.symmetric(
+                    vertical: 10,
+                    horizontal: 25),
                 child: Row(
                   children: [
                     Icon(
@@ -74,8 +75,7 @@ class MeuApp extends StatelessWidget {
                     SizedBox(
                       width: 10,
                     ),
-                    Text(
-                      'davidffelix@hotmail.com',
+                    Text('davidffelix@hotmail.com',
                       style: TextStyle(
                         color: Color(0xff032459),
                         fontSize: 20,
