@@ -32,7 +32,7 @@ class MeuApp extends StatelessWidget {
                 ),
               ),
               Text(
-                'Desenvolvedor Flutter',
+                'Desenvolvedor Mobile',
                 style: TextStyle(
                   color: Colors.white,
                 ),
