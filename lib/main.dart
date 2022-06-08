@@ -43,7 +43,8 @@ class MeuApp extends StatelessWidget {
                   width: 250,
                   child: Divider(
                     color: Colors.white,
-                  )),
+                  ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10, horizontal: 25),
                 child: ListTile(
